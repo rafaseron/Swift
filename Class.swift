@@ -27,7 +27,10 @@ class ContaCorrente{
 // CONCLUSAO:
 /* O Construtor da Classe em Swift é o Construtor do init */
 
+// DUAS FORMAS DE INSTANCIAR A CLASSE
 var contaGuilherme = ContaCorrente(nome: "Guilherme")
+var contaJoao: ContaCorrente = .init(nome: "Joao")
+
 contaGuilherme.verificarSaldo()
 
 contaGuilherme.depositarDinheiro(valor: 1400)
