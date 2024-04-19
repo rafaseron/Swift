@@ -9,6 +9,7 @@ import UIKit
     Ai está a sacada de Criar a Classe 'Conta' */
 
 // OU SEJA, CASO VOCE PRECISE DE UTILIZAR DE HERANCA, DEVE UTILIZAR 'CLASS' E NAO 'STRUCT' -> Struct nao tem essa propriedade
+// --> CASO NAO QUERA PERMITIR HERANCA: DEVE UTILIZAR 'STRUCT' OU ENTAO 'FINAL CLASS'
 
 class Conta{
     var saldo = 0.0
