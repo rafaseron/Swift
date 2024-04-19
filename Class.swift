@@ -19,6 +19,8 @@ class ContaCorrente{
     init(nome: String){ //os atributos que serao recebidos no Construtor da Classe, sao recebidos no Construtor do Init
         saldoBancario = 0.0 //variaveis podem ser inicializadas no Corpo da Classe ou no Corpo do Init
         self.nome = nome //pra nao ficar 'nome = nome', a sintaxe fica entao 'self.nome = nome', sendo o 'com self' o 'nome da classe' e o 'sem self' o 'nome recebido pelo construtor'
+        //self.saldoBancario = 0.0
+        // A variavel pode ser inicializada tanto como apenas 'saldoBancario = 0.0' como tambem por 'self.saldoBancario = 0.0' -> é basicamente o mesmo codigo pro Swift
     }
 }
 
