@@ -5,6 +5,12 @@ class Conta{
     var nome: String //isso é uma Property armazenada
     
     static var taxaDeTransferencia = 5.0 //isso é uma Property Estática
+    /* Por mais que ela é uma Propriedade Estática, ela ainda pode ser chamada dentro do escopo da classe 
+        E iterada. Ou seja, seu valor não é fixo.
+        Exemplo seria:
+
+        Conta.taxaDeTransferencia += 1
+    */
     
     // Porém podemos criar Properties Computadas também:
     var negativado: Bool{
